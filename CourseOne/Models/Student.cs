@@ -14,6 +14,6 @@ namespace CourseOne.Models
         public string Email { get; set; }
         public string UserName { get; set; }
         public DateTime BirthDate { get; set; }
-        public int PhoneNumber { get; set; }
+        public string PhoneNumber { get; set; }
     }
 }

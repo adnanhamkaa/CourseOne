@@ -41,7 +41,8 @@
             @Html.DisplayFor(modelItem => item.UserName)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.BirthDate)
+            @*@Html.DisplayFor(modelItem => item.BirthDate.ToString(string.Format("dd MMMM yyyy")))*@
+            @item.BirthDate.ToString(string.Format("dd MMMM yyyy"))
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.PhoneNumber)
